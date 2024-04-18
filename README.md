@@ -1,7 +1,7 @@
 # Projeto: Remake de site/app web
 ![Substitua a imagem ao lado por um screenshot do seu projeto](https://i.imgur.com/AaweuxxxQ5.png)
 
-Acesso: https://marcosnoble.github.io/WebT1/
+Acesso: https://marcosnoble.github.io/WebTr2/
 
 
 #### Desenvolvedor(a)
