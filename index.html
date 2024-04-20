@@ -8,13 +8,23 @@
 </head>
 <body>
     <div id="telaJogo">
-        <h1 id="titulo">Quiz</h1> <br>        
+        <h1 id="titulo">Quiz</h1>     
         <p id="caixaPergunta">...</p>
         <div id="listaRespostas"></div>
-        <button id="button" onclick="fetchQuestion()">
-            Load Question
+        <button class="button-17" role="button" onclick="gerarPergunta()">
+            Carregar pergunta
         </button> 
-    </div>
+        <button class="button-17" role="button" onclick="verificarResposta()">
+            Verificar resposta
+        </button> <br>
+        <div id="scoreBox">
+            <h2>Score:</h2>
+            <h2 id="score">Acertos: 0  Erros: 0</h2>
+        </div>
+        <button class="button-17" role="button" id="button3" onclick="reset()">
+            Reset
+        </button> 
+    </div> 
     <script src="app.js"></script>
 
 </body>
