@@ -1,34 +1,34 @@
 # Projeto: Remake de site/app web
-![Substitua a imagem ao lado por um screenshot do seu projeto](https://i.imgur.com/AaweuxxxQ5.png)
+![Screenshot](https://i.imgur.com/vhKMwVI.png)
 
-Acesso: https://marcosnoble.github.io/WebTr2/
+Acesso:  https://elc1090.github.io/project2-2024a-marcos-noble/
 
 
 #### Desenvolvedor(a)
 Marcos da Luz Noble
 Curso: CC
 
-#### Site/app escolhido
-Opção 1
+#### Opoção escolhida
+Usar uma API que forneça questões para testes (ex.: quizapi) e/ou organize conteúdos (ex.: BNCC)
 
-##### Link
-https://www.ufsm.br/orgaos-suplementares/inovatec/startups
+Implementar funcionalidades à escolha: busca, filtragem, navegação, etc.
+
+##### Link da API
+https://quizapi.io
 
 ##### Descrição
-Página do parque tecnológica da UFSM listando as empresas incubadas. 
-Os logos dass empresas listadas aparecem em grades separadas temáticamente. 
-O código é bastante extenso, obviamente foi feito por algum framework e não diretamente na mão em HTML CSS puros.
+Um quiz de multipla escolha que capta as perguntas através da API e permite escolher o tema e a dificuldade do jogo. 
 
 #### Desenvolvimento
 
-Como eu nunca tinha feito nada em HTML e CSS comecei a partir do básico com tutoriais no youtube.
-O meu objetivo era conseguir uma aparência similar a da pagina original. O conteúdo em si foi muito mais fácil de criar mas as barras superior e inferior se mostraram muito complexas.
+Agora chegou o javascript era inescapável. 
+Aprender a manipular DOM através do javascript e usar as funcionalidades da linguagem com funções asyinc foi muito interessante.
 
 #### Tecnologias
 
 - HTML    
 - CSS
-
+- JS
 #### Ambiente de desenvolvimento
 
 - VScode
@@ -36,12 +36,10 @@ O meu objetivo era conseguir uma aparência similar a da pagina original. O cont
 
 #### Referências e créditos
 
-- Scrimba, um tutorial de HTML e CSS (https://scrimba.com/dashboard#overview)
-- Tutorial de display flex https://www.youtube.com/watch?v=fVNyfDUuock
-- Tutorial de grid https://www.youtube.com/watch?v=EiNiSFIPIQE
-- Tutorial de HTML semântico https://www.youtube.com/watch?v=bOUhq46fd5g
 - ChatGPT só foi usado para desvendar bugs
-- BROCODE
+- Brocode: JavaScript Full Course (2024) https://www.youtube.com/watch?v=lfmg-EJ8gm4
+- FreeCodeCamp: JavaScript DOM Manipulation https://www.youtube.com/watch?v=5fb2aPlgoys
+- Brocode: Learn JSON files https://www.youtube.com/watch?v=r4MLHHLctKw
 
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2024a) em 2024a
