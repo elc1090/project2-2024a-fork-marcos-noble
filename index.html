@@ -7,8 +7,37 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div id="telaJogo">
-        <h1 id="titulo">Quiz</h1>     
+    <div id="startScreen">
+        <h1 id="titulo">Quiz</h1>
+        <label for="difficulty">Difficuldade:</label>
+        <select id="difficulty">
+            <option  value="todas">Todas</option>
+            <option  value="easy">Easy</option>
+            <option  value="medium">Medium</option>
+            <option  value="hard">Hard</option>
+        </select>
+        <br>
+        <label for="category">Categorias:</label>
+        <select id="category">
+            <option  value="todas">Todas</option>
+            <option value="linux">Linux</option>
+            <option value="bash">bash</option>
+            <option value="uncategorized">uncategorized</option>
+            <option value="Docker">Docker</option>
+            <option value="SQL">SQL</option>
+            <option value="CMS">CMS</option>
+            <option value="Code">Code</option>
+            <option value="DevOps">DevOps</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <button class="button-17" role="button" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="telaJogo"  style="display: none;">
+        <!--<h1 id="titulo">Quiz</h1>     -->
+        <p id="dificuldade">dificuldade</p>
+        <p id="tema">tema</p>
         <p id="caixaPergunta">...</p>
         <div id="listaRespostas"></div>
         <button class="button-17" role="button" onclick="gerarPergunta()">
@@ -29,3 +58,5 @@
 
 </body>
 </html>
+
+
