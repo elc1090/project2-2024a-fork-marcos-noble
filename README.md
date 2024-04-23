@@ -21,14 +21,14 @@ Um quiz de multipla escolha que capta as perguntas através da API e permite esc
 
 #### Desenvolvimento
 
-Agora chegou o javascript era inescapável. 
-Aprender a manipular DOM através do javascript e usar as funcionalidades da linguagem com funções asyinc foi muito interessante.
+No trabalho anterior javascript não era estritamente necessário. Aprender a manipular DOM através do javascript e usar as funcionalidades da linguagem como funções asyinc e promise foi muito interessante.
 
 #### Tecnologias
 
 - HTML    
 - CSS
 - JS
+- 
 #### Ambiente de desenvolvimento
 
 - VScode
