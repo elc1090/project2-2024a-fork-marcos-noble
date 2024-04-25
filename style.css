@@ -1,6 +1,8 @@
-body, html {    
+body{    
     /*border: 2px solid;    */
     display: flex; /* Add display flex */
+    height: 100vh;
+    justify-content: center;
     flex-direction: column;
     align-items: center; /* Center horizontally */
     font-family: rawline, sans-serif !important;
@@ -9,12 +11,13 @@ body, html {
     flex-direction: column;
     flex-wrap: wrap; 
     text-align: center;
-    padding-bottom: 20px; /* Add some padding to the bottom */
-
 }
+
+
 #telaJogo{
     border: 2px solid;    
     border-radius: 24px;
+    padding: 0 2.5rem;
 }
 #startScreen{
   border: 2px solid;    
@@ -24,13 +27,10 @@ body, html {
 
 #scoreBox {
     border: 2px solid;
-    width: 200px;
+    width: 80%;
     border-radius: 24px;
     text-align: center;
-    margin-top: 10px; /* Add some top margin for spacing */
-    margin-bottom: 20px; /* Add some bottom margin for spacing */
-    margin-left: auto; /* Align to the right edge */
-    margin-right: auto; /* Align to the left edge */
+    margin: 1rem auto; /* Align to the right edge */
 }
 
 button{
@@ -47,6 +47,7 @@ li{
     margin: 5px;
     background-color: seashell;
     cursor: pointer;
+    list-style: none;
 }
 
 .selected{

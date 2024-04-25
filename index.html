@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div id="startScreen">
         <h1 id="titulo">Quiz</h1>
         <label for="difficulty">Difficuldade:</label>
-        <select id="difficulty">
-            <option  value="todas">Todas</option>
-            <option  value="easy">Easy</option>
-            <option  value="medium">Medium</option>
-            <option  value="hard">Hard</option>
+        <select class="options" id="difficulty">
+            <option value="todas">Todas</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
         </select>
         <br>
         <label for="category">Categorias:</label>
         <select id="category">
-            <option  value="todas">Todas</option>
+            <option value="todas">Todas</option>
             <option value="linux">Linux</option>
             <option value="bash">bash</option>
             <option value="uncategorized">uncategorized</option>
@@ -34,7 +41,7 @@
         <button class="button-17" role="button" onclick="startQuiz()">Start Quiz</button>
     </div>
 
-    <div id="telaJogo"  style="display: none;">
+    <div id="telaJogo" style="display: none;">
         <!--<h1 id="titulo">Quiz</h1>     -->
         <p id="dificuldade">dificuldade</p>
         <p id="tema">tema</p>
@@ -42,21 +49,19 @@
         <div id="listaRespostas"></div>
         <button class="button-17" role="button" onclick="gerarPergunta()">
             Carregar pergunta
-        </button> 
+        </button>
         <button class="button-17" role="button" onclick="verificarResposta()">
             Verificar resposta
         </button> <br>
         <div id="scoreBox">
-            <h2>Score:</h2>
-            <h2 id="score">Acertos: 0  Erros: 0</h2>
+            <h4 id="score">Acertos: 0 Erros: 0</h4>
         </div>
         <button class="button-17" role="button" id="button3" onclick="reset()">
             Reset
-        </button> 
-    </div> 
+        </button>
+    </div>
     <script src="app.js"></script>
 
 </body>
+
 </html>
-
-
