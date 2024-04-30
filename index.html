@@ -16,16 +16,15 @@
 <body>
     <div id="startScreen">
         <h1 id="titulo">Quiz</h1>
-        <label for="difficulty">Difficuldade:</label>
+        <label class="label-options" for="difficulty">Dificuldade</label>
         <select class="options" id="difficulty">
             <option value="todas">Todas</option>
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
             <option value="hard">Hard</option>
         </select>
-        <br>
-        <label for="category">Categorias:</label>
-        <select id="category">
+        <label class="label-options" for="category">Categoria</label>
+        <select class="options" id="category">
             <option value="todas">Todas</option>
             <option value="linux">Linux</option>
             <option value="bash">bash</option>
@@ -37,7 +36,6 @@
             <option value="DevOps">DevOps</option>
             <!-- Add more options as needed -->
         </select>
-        <br>
         <button class="button-17" role="button" onclick="startQuiz()">Start Quiz</button>
     </div>
 
